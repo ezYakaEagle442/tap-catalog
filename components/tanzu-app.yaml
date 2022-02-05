@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: tanzu-app
-  description: Tanzu App GUI Component
+  description: Tanzu App Component
   tags:
     - java
     - spring
