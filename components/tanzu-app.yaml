@@ -24,7 +24,7 @@ metadata:
   name: demo-api
   description: The demo API for Tanzu Application Platform GUI
   links:
-    - url: https://api.agify.io
+    - url: https://petstore3.swagger.io/api/v3/openapi.json
       title: API Definition
       icon: docs
 spec:
