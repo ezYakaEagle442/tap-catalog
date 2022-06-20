@@ -14,3 +14,7 @@ spec:
   type: service
   lifecycle: demo
   owner: default-team
+  providesApis: # list of APIs provided by the Component
+    -tanzu-app-api
+  consumesApis: # list of APIs consumed by the Component
+    - petstore-api
