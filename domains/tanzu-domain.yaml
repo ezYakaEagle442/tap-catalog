@@ -2,12 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: tanzu-domain
-  description: Everything related to the Tanzu Application Platform
+  description: Everything related to Tanzu
   links:
-    - url: http://example.com/domain/cloud-apps/
-      title: Domain Readme
-    - url: http://example.com/domains/cloud-apps/dashboard
-      title: Cloud Apps Dashboard
-      icon: dashboard
+    - url: https://tanzu.vmware.com/tanzu
+      title: VMware Tanzu
 spec:
   owner: default-team

@@ -22,5 +22,5 @@ metadata:
 spec:
   targets:
     - ./default-team.yaml
-    - ./guest-user.yaml
     - ./spring-petclinic-team.yaml
+    - ./guest-user.yaml

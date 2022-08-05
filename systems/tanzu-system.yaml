@@ -1,10 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: tanzu
-  description: Tanzu Application Platform System
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
+  name: spring-petclinic-system
+  description: Spring Petclinic System
 spec:
   owner: default-team
   domain: tanzu-domain
