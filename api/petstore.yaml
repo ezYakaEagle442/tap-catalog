@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: petstore
+  description: The classic petstore API from swagger.io, pulled from a live endpoint.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: default-team
+  system: tanzu
+  definition:
+    $text: https://petstore3.swagger.io/api/v3/openapi.yaml

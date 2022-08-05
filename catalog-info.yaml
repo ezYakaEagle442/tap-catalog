@@ -7,8 +7,8 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/tap-gui.yaml
     - ./components/tanzu-app.yaml
+    - ./components/spring-petclinic-vets-service.yaml
     - ./groups/default-org.yaml
-    - ./systems/tap-gui-system.yaml
-    - ./domains/tap-gui-domain.yaml
+    - ./systems/tanzu-system.yaml
+    - ./domains/tanzu-domain.yaml

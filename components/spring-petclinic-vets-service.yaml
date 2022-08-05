@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-petclinic-vets-service
+  description: Spring Petclinic Vets Service
+  tags:
+    - java
+    - spring
+    - web
+  annotations:
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=spring-petclinic-vets-service
+spec:
+  type: service
+  lifecycle: demo
+  owner: spring-petclinic-team
+  consumesApis: # list of APIs consumed by the Component
+    - petstore
