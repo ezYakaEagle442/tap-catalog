@@ -13,4 +13,5 @@ spec:
   owner: spring-petclinic-team
   system: spring-petclinic-system
   definition:
-    $text: https://petstore3.swagger.io/api/v3/openapi.yaml
+    # WIP to work with Dynamic APIs
+    $text: https://github.com/beeNotice/tap-catalog/tree/main/api/impl/openapi-petstore.yaml
