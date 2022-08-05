@@ -13,4 +13,4 @@ spec:
   owner: spring-petclinic-team
   system: spring-petclinic-system
   definition:
-    $text: https://github.com/dektlong/dekt-devx-demo/blob/main/backstage/apis/sms-apis-swagger.yaml
+    $text: https://petstore3.swagger.io/api/v3/openapi.yaml
