@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: spring-petclinic-system
-  description: Spring Petclinic System
+  name: tanzu-app-system
+  description: Tanzu Internal App System
 spec:
   owner: default-team
   domain: tanzu-domain

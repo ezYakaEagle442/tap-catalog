@@ -6,7 +6,7 @@ metadata:
   tags:
     - java
     - spring
-    - web
+    - petclinic
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=spring-petclinic-vets-service
     'backstage.io/techdocs-ref': dir:.
@@ -15,4 +15,5 @@ spec:
   lifecycle: production
   system: spring-petclinic-system
   owner: spring-petclinic-team
-
+  dependsOn:
+    - resource:default/spring-petclinic-vets-db
