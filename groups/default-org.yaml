@@ -12,7 +12,7 @@ spec:
     displayName: Default Organization
     email: tanzu@vmware.com
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [default-team]
+  children: [default-team, spring-petclinic-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
