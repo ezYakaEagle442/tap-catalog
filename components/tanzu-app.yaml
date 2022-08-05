@@ -15,4 +15,4 @@ spec:
   lifecycle: demo
   owner: default-team
   consumesApis: # list of APIs consumed by the Component
-    - demo-api
+    - petstore

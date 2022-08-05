@@ -9,9 +9,8 @@ metadata:
     - web
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=spring-petclinic-vets-service
+    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   lifecycle: demo
   owner: spring-petclinic-team
-  consumesApis: # list of APIs consumed by the Component
-    - petstore

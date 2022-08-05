@@ -1,10 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-gui-catalog-info
+  name: tanzu
   description: A sample catalog for Backstage
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
     - ./components/tanzu-app.yaml
