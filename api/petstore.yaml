@@ -10,8 +10,8 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: spring-petclinic-team
-  system: spring-petclinic-system
+  owner: default-team
+  system: tanzu-app-system
   definition:
     # WIP to work with Dynamic APIs
     $text: https://github.com/beeNotice/tap-catalog/tree/main/api/openapi/openapi-petstore.yaml
