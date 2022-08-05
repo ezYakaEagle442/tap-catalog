@@ -5,4 +5,4 @@ metadata:
   description: Tanzu Internal App System
 spec:
   owner: default-team
-  domain: tanzu-domain
+  domain: tanzu-app-domain

@@ -2,14 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: tanzu
-  description: Tanzu catalog for Backstage
+  description: Tanzu App catalog for Backstage
 spec:
   targets:
     - ./components/tanzu-app.yaml
-    - ./components/spring-petclinic-vets-service.yaml
-    - ./ressources/spring-petclinic-vets-ressource.yaml
     - ./groups/default-org.yaml
     - ./systems/tanzu-app-system.yaml
-    - ./systems/spring-petclinic-system.yaml
-    - ./domains/tanzu-domain.yaml
+    - ./domains/tanzu-app-domain.yaml
     - ./api/petstore.yaml

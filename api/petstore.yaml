@@ -14,4 +14,4 @@ spec:
   system: spring-petclinic-system
   definition:
     # WIP to work with Dynamic APIs
-    $text: https://github.com/beeNotice/tap-catalog/tree/main/api/impl/openapi-petstore.yaml
+    $text: https://github.com/beeNotice/tap-catalog/tree/main/api/openapi/openapi-petstore.yaml
