@@ -10,3 +10,5 @@ spec:
     - ./systems/tanzu-app-system.yaml
     - ./domains/tanzu-app-domain.yaml
     - ./api/petstore.yaml
+    - ./api/tanzu-app.yaml
+    - ./ressources/tanzu-app-ressource.yaml

@@ -18,3 +18,7 @@ spec:
   owner: default-team
   consumesApis: # list of APIs consumed by the Component
     - petstore-api
+  providesApis:
+    - tanzu-app-api
+  dependsOn: 
+    - resource:postgres-tanzu-app

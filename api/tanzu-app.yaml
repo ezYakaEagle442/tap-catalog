@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: tanzu-app-api
+  description: The Tanzu App API
+  links:
+    - url: http://tanzu-app-deploy-dev.tanzu.fmartin.tech/v3/api-docs
+      title: API Definition
+      icon: docs
+spec:
+  type: openapi
+  lifecycle: production
+  owner: default-team
+  system: tanzu-app-system
+  definition:
+    # WIP to work with Dynamic APIs
+    $text: https://github.com/beeNotice/tap-catalog/tree/main/api/openapi/openapi-tanzu-app.yaml
