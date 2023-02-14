@@ -4,7 +4,7 @@ info:
   description: This is a sample Spring Boot RESTful service using springdoc-openapi
     and OpenAPI 3.
 servers:
-- url: http://tap.westeurope.cloudapp.azure.com
+- url: http://tap.appinnohandsonlab.com
   description: Generated server url
 paths:
   /api/configs:
